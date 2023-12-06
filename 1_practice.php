@@ -3,7 +3,7 @@
 class test_1{
   public $test_1_1;
     function test1_2(){
-        echo "this is test" . $this->test_1_1;
+        echo "this is test " . $this->test_1_1;
     }
 }
 
