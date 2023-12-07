@@ -8,7 +8,8 @@
 - than we give value of the public variable 
 - than echo it by call out side variable name and function name `outside_variable->function_variable();`
 - an example of function using sum of three number
-              ``` <?php
+  ```  
+               <?php
               class calculation{
               public $a, $b, $c;
               function sum(){
@@ -20,6 +21,6 @@
               $p->a = 10;
               $p->b = 20;
 
-              echo $p->sum(); ```
+              echo $p->sum();
 
-              
+  ```
