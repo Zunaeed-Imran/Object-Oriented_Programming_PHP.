@@ -8,19 +8,39 @@
 - than we give value of the public variable 
 - than echo it by call out side variable name and function name `outside_variable->function_variable();`
 - an example of function using sum of three number
-  ```  
-               <?php
-              class calculation{
-              public $a, $b, $c;
-              function sum(){
-                $this->c=$this->a+$this->b;
-                return $this->c;
-              }
-              }
-              $p = new calculation();
-              $p->a = 10;
-              $p->b = 20;
 
-              echo $p->sum();
+  ```  
+  <?php
+      class calculation{
+      public $a, $b, $c;
+      function sum(){
+        $this->c=$this->a+$this->b;
+        return $this->c;
+      }
+      }
+      $p = new calculation();
+      $p->a = 10;
+      $p->b = 20;
+
+      echo $p->sum();
+  ?>
 
   ```
+- another example of OPP
+
+```
+  <?php
+
+    class test_1_class {
+      public $test_2_public;
+      function test_2_function(){
+        echo "This is " . $this->test_2_public;
+      }
+    }
+    $test_2 = new test_1_class();
+    $test_2->test_2_public = "2nd Test Project";
+
+    echo $test_2->test_2_function();
+?>
+
+```
