@@ -7,3 +7,19 @@
 - we take a new variable `=  new  class_name()`
 - than we give value of the public variable 
 - than echo it by call out side variable name and function name `outside_variable->function_variable();`
+- an example of function using sum of three number
+              ``` <?php
+              class calculation{
+              public $a, $b, $c;
+              function sum(){
+                $this->c=$this->a+$this->b;
+                return $this->c;
+              }
+              }
+              $p = new calculation();
+              $p->a = 10;
+              $p->b = 20;
+
+              echo $p->sum(); ```
+
+              

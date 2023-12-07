@@ -1,14 +1,16 @@
 <?php
 class test_3{
-  public $a;
+  public $a, $b, $c;
   function test_fun(){
-    $this->a = "King-Arther";
+    $this->a = $this->b + $this->c;
     return $this->a;
   }
 }
 
-$b = new test_3();
+$a = new test_3();
+$b = 10;
+$c = 5;
 
 
-echo $b->a;
+echo $a->test_fun();
 ?>
