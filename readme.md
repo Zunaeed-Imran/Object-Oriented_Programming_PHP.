@@ -26,7 +26,7 @@
   ?>
 
   ```
-- another example of OPP
+- another example of OPP Using String
 
 ```
   <?php
