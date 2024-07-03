@@ -6,7 +6,7 @@ class calculation{
 public $a, $b, $c;
 
 function sum(){
-  $this->c=$this->a+$this->b;
+  $this->c = $this->a + $this->b;
   return $this->c;
 }
 
