@@ -1,5 +1,8 @@
 <?php
 // basic example of class or OOP.
+// we use setter & getter method using function and class.
+
+
 
 class Fruits{
 
