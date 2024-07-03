@@ -1,6 +1,7 @@
 <?php
 
 // practice sum & subtraction using OOP.
+// in this class OOP we don't use setter-getter method we use return in the same function. 
 class calculation{
 
 public $a, $b, $c;
