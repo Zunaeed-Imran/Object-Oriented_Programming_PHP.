@@ -1,13 +1,19 @@
 <?php
+
+// practice sum & subtraction using OOP.
 class calculation{
- public $a, $b, $c;
- function sum(){
+
+public $a, $b, $c;
+
+function sum(){
   $this->c=$this->a+$this->b;
   return $this->c;
- }
- function substr(){
+}
+
+function substr(){
   $this->c = $this->a - $this->b;
   return $this->c;
+
  }
 }
 
