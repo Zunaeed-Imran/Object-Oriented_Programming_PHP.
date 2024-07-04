@@ -1,5 +1,5 @@
 <?php
-// 
+// in this practice file we take two variable and use the constructor and distructor function.
 // As constructors and destructors helps reducing the amount of code, they are very useful!
 
 class Fruits{
