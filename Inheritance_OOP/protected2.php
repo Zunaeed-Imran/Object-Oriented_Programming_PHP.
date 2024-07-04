@@ -2,6 +2,9 @@
 // another protected function practice.
 //  but this one will work because
 
+// In the example above we see that all works fine! It is because we call the protected method (intro()) from inside the derived class.
+
+
 class Fruits{
   public $name, $color;
 
