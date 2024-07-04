@@ -31,11 +31,11 @@ class Apple extends Fruits
 
   public function intro()
   {
-    echo "The fruit is {$this->name} and the color is {$this->color} and the weight is {$this->weight}";
+    echo "The fruit is {$this->name} and the color is {$this->color} and the weight is {$this->weight} Gram";
   }
 }
 
-$result = new Apple("Apple", "Green", "20");
+$result = new Apple("Apple", "Green", 20);
 $result->intro();
 
 ?>
