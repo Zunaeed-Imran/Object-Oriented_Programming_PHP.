@@ -2,7 +2,7 @@
 //  example of abstract class in PHP OOP
 // first we make a intro string, than make child class function.
 
-
+//   intro() should define all the child class to access.
 
 // abstract class
 abstract class Car{
