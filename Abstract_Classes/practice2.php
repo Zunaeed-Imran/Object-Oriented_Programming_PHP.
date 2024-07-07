@@ -1,6 +1,6 @@
 <?php
 //  another practice of abstract class.
-
+//  in this way of practice, first we define function than we pre use and modify that function something like that.
 
 
 abstract class ParentClass
