@@ -29,9 +29,9 @@ $banana->set_name('Banana');
 $orange->set_name('Orange');
 
 echo $apple->get_name();
-echo "</br>";
+echo "\n";
 echo $banana->get_name();
-echo "</br>";
+echo "\n";
 echo $orange->get_name();
 
 
