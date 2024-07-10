@@ -1,6 +1,8 @@
 <?php
 class person{
+
   public $name;
+  
   function show(){
     echo "Your name is : ". $this->name;
   }
