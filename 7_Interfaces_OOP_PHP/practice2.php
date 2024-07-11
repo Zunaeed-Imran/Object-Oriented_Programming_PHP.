@@ -1,6 +1,6 @@
 <?php
 // practice take various animal in one main function for makeSound.
-
+// we take multiple class using interfaces.
 
 // interface defined
 interface Animal2{
