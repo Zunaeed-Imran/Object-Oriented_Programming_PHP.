@@ -1,6 +1,8 @@
 <?php
 //  example of abstract class in PHP OOP
-// first we make a intro string, than make child class function.
+//  first we make a intro string, than make child class function.
+//  we can take multiple class using abstract class.
+
 
 //   intro() should define all the child class to access.
 
